@@ -19,12 +19,13 @@ body {
 }
 
 a {
-	color: #ddd;
+	color: #ff3c1f;
 	text-decoration: none;
 }
 
 a:hover, a:focus {
-	color: #fff;
+	color: #ff3c1f;
+	text-decoration: underline;
 }
 
 .codrops-header {
@@ -151,4 +152,8 @@ a:hover, a:focus {
 		line-height: 2;
 	}
 
+}
+/*********Custom Code***********/
+.bb-custom-side > img {
+	width: 100%;
 }

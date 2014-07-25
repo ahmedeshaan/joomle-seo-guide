@@ -286,6 +286,7 @@ body {
     overflow: hidden;
     width: 50%;
     height: 100%;
+    padding: 75px;
 }
 
 .bb-custom-side::before {
@@ -296,11 +297,19 @@ body {
     height: 100%;
     box-shadow: inset 30px 0 40px -20px rgba(0, 0, 0, 0.1);
     content: '';
+    left: 0;
+}
+.chapter-title::before{
+    right: 0;
+    left: auto;
 }
 
 .bb-custom-side:first-child::before {
     right: 0;
     box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.05), inset -30px 0 40px -20px rgba(0, 0, 0, 0.15);
+}
+.bb-custom-side > p {
+    line-height: 150%;
 }
 
 .page-layout-1 h3,
@@ -949,4 +958,20 @@ body {
       -webkit-transform: rotateY(90deg);
       transform: rotateY(90deg);
   }
+}
+
+/*********Custom Code***********/
+.chapter-left {
+    display: block;
+    padding: 75px 75px 0px 75px;
+}
+.chapter-left > p {
+     line-height: 150%;
+}
+.chapter-left > ul > li {
+    margin-bottom: 15px;
+}
+
+.chapter-left > ul > li > ul > li {
+    margin-top: 15px;
 }
