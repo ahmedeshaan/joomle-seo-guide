@@ -157,3 +157,8 @@ a:hover, a:focus {
 .bb-custom-side > img {
 	width: 100%;
 }
+.book-cover {
+	display: block;
+	background: url('../img/seo-book.png') no-repeat;
+	background-size: cover;
+}
