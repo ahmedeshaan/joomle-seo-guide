@@ -288,7 +288,14 @@ body {
     height: 100%;
     padding: 75px;
 }
-
+.bb-custom-side > h3 {
+    text-align: center;
+    color:#444;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 38%;
+}
 .bb-custom-side::before {
     position: absolute;
     top: 0;
@@ -389,7 +396,7 @@ body {
 
 .page-layout-3 div { padding: 10% }
 
-.page-layout-3 h3 {
+.page-layout-3 > h3 {
     margin: 0;
     text-transform: uppercase;
     font-weight: 400;
@@ -961,17 +968,3 @@ body {
 }
 
 /*********Custom Code***********/
-.chapter-left {
-    display: block;
-    padding: 75px 75px 0px 75px;
-}
-.chapter-left > p {
-     line-height: 150%;
-}
-.chapter-left > ul > li {
-    margin-bottom: 15px;
-}
-
-.chapter-left > ul > li > ul > li {
-    margin-top: 15px;
-}
