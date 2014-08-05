@@ -201,7 +201,7 @@ a.facebook{
 	font-size: 25px;
 }.twitter > i {
 	color: #fff;
-	font-size: 25px;
+	font-size: 25px; 
 }.linkdin > i {
 	color: #fff;
 	font-size: 25px;
@@ -210,5 +210,5 @@ a.facebook{
 	font-size: 25px;
 }
 .facebook, .twitter, .linkdin, .plus {
-	margin-left: 25px;
+	margin-left: 25px;  
 }
