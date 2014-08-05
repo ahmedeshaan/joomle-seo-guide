@@ -322,7 +322,8 @@ body {
     box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.05), inset -30px 0 40px -20px rgba(0, 0, 0, 0.15);
 }
 .bb-custom-side > p {
-    line-height: 150%;
+    line-height: 2em;
+    color:#6a6a6a;
 }
 
 .page-layout-1 h3,

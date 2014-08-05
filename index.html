@@ -44,15 +44,17 @@
 		</div><!-- /container -->
 
 			<div class="social-media-cons">
+			  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+              <div class="addthis_sharing_toolbox"></div>
 							
-						    <a href="#" data-type="facebook"    data-url="http://www.themexpert.com/joomla-seo-guide/" data-title="prettySocial - custom social share buttons." data-description="Imagine you have world’s most famous product to sell, you chose joomla! CMS because you love it. You have paid a handsome amount to designer and developer for wonderfully crafting platform and showcasing your product in an aesthetic manner. The countdown timer of your website is taking its last breath and customers are excited using their credit card at the first the peep of your website." data-media="img/seo-book.png"   class="prettySocial facebook"><i class="fa fa-facebook"></i></a>
+						   <!--  <a href="#" data-type="facebook"    data-url="http://www.themexpert.com/joomla-seo-guide/" data-title="prettySocial - custom social share buttons." data-description="Imagine you have world’s most famous product to sell, you chose joomla! CMS because you love it. You have paid a handsome amount to designer and developer for wonderfully crafting platform and showcasing your product in an aesthetic manner. The countdown timer of your website is taking its last breath and customers are excited using their credit card at the first the peep of your website." data-media="img/seo-book.png"   class="prettySocial facebook"><i class="fa fa-facebook"></i></a>
 						    
 						    
 						    <a href="#" data-type="twitter" data-url="http://www.themexpert.com/joomla-seo-guide/" data-description="A COMPLETE JOOMLA SEO GUIDE" data-via="themexpert" class="prettySocial twitter"><i class="fa fa-twitter"></i></i></a>
 						    <a href="#" data-type="linkedin" data-url="http://www.themexpert.com/joomla-seo-guide/" data-title="A COMPLETE JOOMLA SEO GUIDE" data-description="Imagine you have world’s most famous product to sell, you chose joomla! CMS because you love it. You have paid a handsome amount to designer and developer for wonderfully crafting platform and showcasing your product in an aesthetic manner. The countdown timer of your website is taking its last breath and customers are excited using their credit card at the first the peep of your website." class="prettySocial linkdin"><i class="fa fa-linkedin"></i></a>
 						   
 						    <a href="#" data-type="googleplus" data-url="http://www.themexpert.com/joomla-seo-guide/" data-description="A COMPLETE JOOMLA SEO GUIDE" class="prettySocial plus"><i class="fa fa-google-plus"></i></a>
-
+ -->
 						</div>
 
 		<!-- Fullscreen BookBlock -->
@@ -158,7 +160,7 @@
 						<p>Joomla! includes disallow rule for image directory with initial Joomla  installation in auto generated <strong>robots.txt </strong> file.  The robots.txt file contains instruction for search engine not index image folder primarily. The reason behind, Joomla always concern about your privacy first. With initial installation you might have some essential images in image folder. And you want search engine not to index with kick start.</p>
 
 						 <p>When you are ready to generate a sizable chunk of traffic from images, Just head over to your template <strong>root directory</strong> and remove following instruction from <strong>robots.txt</strong> file</p>
-                       <p><b>Disallow: /images/</b></p>
+                       <p><pre>Disallow: /images/</pre></p>
 					</div>
 				
 				</div>
@@ -201,13 +203,13 @@
                        <p>To redirect from non-www. to www. add the following code to your .htaccess file: <p>
                       
                        <P>
-                       	    <b>RewriteEngine On</b> <br />
-							<b>RewriteCond %{HTTP_HOST} !^www\.</b> <br />
-							<b>RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]</b> <br /> <br />
+                       	   <pre>RewriteEngine On</pre> <br />
+							<pre>RewriteCond %{HTTP_HOST} !^www\.</pre> <br />
+							<pre>RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]</pre> <br /> <br />
 							Alternatively, you can redirect to non-www. by adding this code instead: <br /> <br />
-							<b>RewriteEngine On</b><br />
-							<b>RewriteCond %{HTTP_HOST} www.yourwebsitehere.com</b><br />
-							<b>RewriteRule (.*) http://yourwebsitehere.com/$1 [R=301,L]</b><br />
+							<pre>RewriteEngine On</pre><br />
+							<pre>RewriteCond %{HTTP_HOST} www.yourwebsitehere.com</pre><br />
+							<pre>RewriteRule (.*) http://yourwebsitehere.com/$1 [R=301,L]</pre><br />
 
                        </P>
 					</div>
@@ -229,14 +231,14 @@
 
                       
                        <P>ExpiresActive On <br />
-                       	   <b>ExpiresByType text/html "access plus 1 seconds"</b> <br />
-						   <b>ExpiresByType image/gif "access plus 1 years"</b><br />
-						   <b>ExpiresByType image/jpeg "access plus 1 months"</b><br />
-						   <b>ExpiresByType image/png "access plus 1 months"</b><br />
-						   <b>ExpiresByType text/css "access plus 1 months"</b><br />
-						   <b>ExpiresByType text/javascript "access plus 1 months"</b><br />
-						   <b>ExpiresByType application/x-javascript "access plus 1 months"</b><br />
-						   <b>ExpiresByType image/ico "access plus 1 months"</b><br />
+                       	  <pre>ExpiresByType text/html "access plus 1 seconds"</pre> <br />
+						   <pre>ExpiresByType image/gif "access plus 1 years"</pre><br />
+						   <pre>ExpiresByType image/jpeg "access plus 1 months"</pre><br />
+						   <pre>ExpiresByType image/png "access plus 1 months"</pre><br />
+						   <pre>ExpiresByType text/css "access plus 1 months"</pre><br />
+						   <pre>ExpiresByType text/javascript "access plus 1 months"</pre><br />
+						   <pre>ExpiresByType application/x-javascript "access plus 1 months"</pre><br />
+						   <pre>ExpiresByType image/ico "access plus 1 months"</pre><br />
 
 
                        </P>
@@ -306,7 +308,7 @@
 					<div class="bb-custom-side">
 						<p>There are numerous other way, that can help you to maximize your both in on-site and off-SEO on your Joomla website. I have only shared the most important of them. Our little endeavor can help you a lot. </p>
 
-						<p><b>Resource</b></p>
+						<h2><b>Resource</b></h2>
 						<ul>
 							<li><a href="http://www.themexpert.com/blog/best-web-hosting" target="_blank" >Specialized Joomla Hosting</a></li>
 							<li><a href="https://www.ostraining.com/blog/joomla/htaccess-with-cpanel/" target="_blank" >Change Joomla htaccess.txt file to .htaccess with CPanel</a></li>
@@ -333,6 +335,10 @@
 		<script src="js/bookshelf.js"></script>
 		<script src="js/jquery.nicescroll.js"></script>
 		<script src="js/jquery.prettySocial.min.js"></script>
+		<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53e0bb9e0d944a50"></script>
+
+
 
 		<script type="text/javascript">
                 
