@@ -162,4 +162,53 @@ a:hover, a:focus {
 	background: url('../img/seo-book.png') no-repeat;
 	background-size: cover;
 }
+.social-media-cons {
+position: absolute;
+left:13%;
+bottom: 50px;
+overflow: hidden;
+width: 335px;
+margin:0px auto 0;
+text-align: center;
+z-index: 9999;
+}
+.social-media-cons > a {
+	padding: 15px;
+}
+a.facebook{
+	padding-right:20px; 
+	padding-left:20px;
 
+}
+.facebook, .twitter, .linkdin, .plus  {
+     float: left;
+}
+.facebook {
+
+	background: #4A66A0;
+}.twitter {
+
+	background: #1AB2E8;
+}.linkdin {
+
+	background: #007BB6;
+}.plus {
+
+	background: #DF5138;
+}
+.facebook > i {
+	color: #fff;
+	font-size: 25px;
+}.twitter > i {
+	color: #fff;
+	font-size: 25px;
+}.linkdin > i {
+	color: #fff;
+	font-size: 25px;
+}.plus > i {
+	color: #fff;
+	font-size: 25px;
+}
+.facebook, .twitter, .linkdin, .plus {
+	margin-left: 25px;
+}
