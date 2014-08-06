@@ -212,3 +212,12 @@ a.facebook{
 .facebook, .twitter, .linkdin, .plus {
 	margin-left: 25px;  
 }
+pre{
+padding: 15px;
+border: 1px solid #ddd;
+background-color: #f8f8f8;
+clear: none !important;
+}
+.main-bullets li {
+	padding-top: 10px;
+}
