@@ -16,11 +16,13 @@
         <link rel="stylesheet" href="css/style.css">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
        <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53e0b51d125e3b5b"></script>
+       <!-- Go to www.addthis.com/dashboard to customize your tools -->
+       <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53e0b51d125e3b5b"></script>
+
 
 
     </head>
-    <body>
+      <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -29,9 +31,8 @@
         <section class="background">
                  <!-- Fixed navbar -->
             <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-              <div class="container container-nav-narrow">
-                 <a class="navbar-brand" href="http://www.themexpert.com/?utm_source=seo_guide&utm_medium=logo"></a>
-                <div class="">
+                <div class="container container-nav-narrow">
+                   <a class="navbar-brand" href="http://www.themexpert.com/?utm_source=seo_guide&utm_medium=logo"></a>
                   <ul class="nav navbar-nav pull-right">
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle " data-toggle="dropdown"><span class="glyphicon glyphicon-book"></span> Chapters <span class="caret"></span></a>
@@ -51,7 +52,6 @@
                       </ul>
                     </li>
                   </ul>
-                </div><!--/.nav-collapse -->
               </div>
             </div>
          </section>
@@ -145,7 +145,7 @@
                          <p>When you are ready to generate a sizable chunk of traffic from images, Just head over to your template <strong>root directory</strong> and remove following instruction from <strong>robots.txt</strong> file</p>
                        <p></p><pre>Disallow: /images/</pre><p></p>
 
-                       <p><b>Note: </b>From Joomla 3.3 update, Disallow rule has been withdrawn from <b>/images/</b> folder.</p>
+                       <p class="alert alert-info"><strong>Note:</strong> From Joomla 3.3 update, Disallow rule has been withdrawn from <code>/images/</code> folder.</p>
     
                     </article>
                  </div>
@@ -234,7 +234,7 @@
                            &gt;ExpiresByType image/ico "access plus 1 months"</pre><br>
 
 
-                       <p><b>Note:</b> Your server supports <strong>mod_expire</strong> features for Apache. For smart safety, Use If-statement  is there, If your host doesn't support it, your custom code is going to rule. </p>
+                       <p class="alert alert-info"><strong>Note:</strong> Your server supports <code>mod_expire</code> features for Apache. For smart safety, Use If-statement  is there, If your host doesn't support it, your custom code is going to rule. </p>
                   
     
                     </article>
@@ -282,7 +282,7 @@
 
                       <p>To enable Gzip in Joomla! CMS, head over to <b>Global configuration &gt; server</b> and click on option '<b>Yes</b>' for Gzip compression. </p>
 
-                      <p><b>Note:</b> Gzip only works, If <b>mod_gzip</b> is installed on your server. </p>
+                      <p class="alert alert-info"><strong>Note</strong> Gzip only works, If <code>mod_gzip</code> is installed on your server. </p>
                   
     
                     </article>
