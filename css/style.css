@@ -1,20 +1,27 @@
 body {
     color: #444;
-    padding-top: 60px;
+    padding-top: 50px;
     background: #fff;
 }
 img {
     max-width: 100%;
 }
-.navbar-default {
+.navbar-brand {
+    background: url(../img/logo.png);
+    background-repeat: no-repeat;
+    width: 150px;
+    background-size: 85%;
+
+}
+/*.navbar-default {
     background: #fff;
     min-height: 70px;
 }
 
 .navbar-nav>li>a {
-padding-top: 25px;
-padding-bottom: 25px;
-}
+    padding-top: 25px;
+    padding-bottom: 25px;
+}*/
 #chater-menu > li > a {
     font-size: 16px;
     padding-top: 10px;
@@ -24,21 +31,24 @@ padding-bottom: 25px;
    background:#d8e0e5;
 }
 .container-nav-narrow {
-    width: 1000px;
+    max-width: 1000px;
 
 }
 .container-narrow {
-    width: 800px;
+    max-width: 800px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 75px;
 }
 li.dropdown > a {
     font-size: 16px;
     font-weight: normal;
-
 }
+
 .dropdown {
     margin-top: 0px;
 }
+
 .image-shadow {
     width: 100%;
     border-radius: 5px;
@@ -54,7 +64,7 @@ h1,h2,h3,h4,h5{  font-family: 'Open Sans', sans-serif;}
     text-align: center;
 }
 h2.title {font-size: 50px;}
-p{
+p {
    font-family: 'Lora', serif;
     font-size: 20px;
     line-height: 1.5em;
@@ -125,7 +135,6 @@ article {
     margin-top: -15px;
 }
 
-
 .subscribe {
 margin: 0px auto;
 padding: 20px;
@@ -181,3 +190,62 @@ background-image: linear-gradient(to bottom,#84f087,#4cd94a);
 -webkit-box-shadow: inset 0 1px rgba(255,255,255,0.4);
 box-shadow: inset 0 1px rgba(255,255,255,0.4);
 }
+
+
+
+/*      Tablet Layout:   */
+
+@media (min-width: 768px) and (max-width: 1024px) {    
+    .title {
+        font-size: 60px;
+    }
+}
+
+
+
+/*      Mobile Layout: 320px.   */
+
+@media (max-width: 568px) {
+    
+    .title {
+        font-size: 55px;
+    }
+    h2.title {
+        font-size: 45px;
+    }
+}
+
+
+
+/*      Wide Mobile Layout:  */
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    
+    .title {
+        font-size: 40px;
+    }
+    h2.title {
+        font-size: 30px;
+    }
+    .subscribe {
+    margin: 0px auto;
+    padding: 10px;
+    width: 320px;
+    }
+    .subscribe-submit { 
+      width: 150px;
+    }
+    .subscribe-form > p {
+      font-size: 14px;
+   }
+  .pull-right {
+     float: none !important;
+   }
+   .dropdown .dropdown-toggle {
+    float: right;
+   }
+ 
+}
+
+
