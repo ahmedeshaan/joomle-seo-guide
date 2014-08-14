@@ -176,9 +176,7 @@
                                             </p>
                                             <pre>RewriteEngine On <br>RewriteCond %{HTTP_HOST} !^www\. <br>RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]</pre> <br> <br>
                                             Alternatively, you can redirect to non-www. by adding this code instead: <br> <br>
-                                            <pre>RewriteEngine On<br>
-                                            RewriteCond %{HTTP_HOST} www.yourwebsitehere.com<br>
-                                            RewriteRule (.*) http://yourwebsitehere.com/$1 [R=301,L]</pre><br>         
+                                            <pre>RewriteEngine On<br>RewriteCond %{HTTP_HOST} www.yourwebsitehere.com<br>RewriteRule (.*) http://yourwebsitehere.com/$1 [R=301,L]</pre><br>         
                                         </article>
                                      </div>
                                  </div>
@@ -196,13 +194,7 @@
                                                <p>I am not getting into too much details, You can easily instruct browsers to cache certain types of contents found on your website. And also tell them how long to cache them. My personal suggestion, put following code in the bottom of .htaccess file from Joomla root directory. </p>
                                                <p>ExpiresActive On <br>
                                                 </p>
-                                                <pre>ExpiresByType text/html "access plus 1 seconds" <br>ExpiresByType image/gif "access plus 1 years"<br>
-                                                ExpiresByType image/jpeg "access plus 1 months"<br>
-                                                ExpiresByType image/png "access plus 1 months"<br>
-                                                ExpiresByType text/css "access plus 1 months"<br>
-                                                ExpiresByType text/javascript "access plus 1 months"<br>
-                                                ExpiresByType application/x-javascript "access plus 1 months"<br>
-                                                &gt;ExpiresByType image/ico "access plus 1 months"</pre><br>
+                                                <pre>ExpiresByType text/html "access plus 1 seconds" <br>ExpiresByType image/gif "access plus 1 years"<br>ExpiresByType image/jpeg "access plus 1 months"<br>ExpiresByType image/png "access plus 1 months"<br>ExpiresByType text/css "access plus 1 months"<br>ExpiresByType text/javascript "access plus 1 months"<br>ExpiresByType application/x-javascript "access plus 1 months"<br>ExpiresByType image/ico "access plus 1 months"</pre><br>
                                                <p class="alert alert-info"><strong>Note:</strong> Your server supports <code>mod_expire</code> features for Apache. For smart safety, Use If-statement  is there, If your host doesn't support it, your custom code is going to rule. </p>
                                             </article>
                                          </div>
