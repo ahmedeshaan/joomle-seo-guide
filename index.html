@@ -38,16 +38,16 @@
                               <a href="#" class="dropdown-toggle " data-toggle="dropdown"><span class="glyphicon glyphicon-book"></span> Chapters <span class="caret"></span></a>
                               <ul id="chater-menu" class="dropdown-menu dropdown-menu-right" role="menu">
                                 <li><a href="#introduction"> Introduction </a></li>
-                                <li><a href="#chapter-one">01, choose a specialized web host</a></li>
-                                <li><a href="#chapter-two">02, rename htaccess.txt to .htaccess</a></li>
-                                <li><a href="#chapter-three">03, enable sef urls</a></li>
-                                <li><a href="#chapter-four">04, configure robots.txt file</a></li>
-                                <li><a href="#chapter-five">05, use alt attribute</a></li>
-                                <li><a href="#chapter-six">06, redirect urls </a></li>
-                                <li><a href="#chapter-seven">07, leverage browser caching </a></li>
-                                <li><a href="#chapter-eight">08, create xml sitemap </a></li>
-                                <li><a href="#chapter-nine">09, enable gzip compression </a></li>
-                                <li><a href="#chapter-ten">10, enable Microdata </a></li>
+                                <li><a href="#chapter-one">01. Choose A Specialized Web Hosting</a></li>
+                                <li><a href="#chapter-two">02. Rename htaccess.txt To .htaccess</a></li>
+                                <li><a href="#chapter-three">03. Enable Sef Urls</a></li>
+                                <li><a href="#chapter-four">04. Configure robots.txt File</a></li>
+                                <li><a href="#chapter-five">05. Use Alt Attribute</a></li>
+                                <li><a href="#chapter-six">06. Redirect Urls </a></li>
+                                <li><a href="#chapter-seven">07. Leverage Browser Caching </a></li>
+                                <li><a href="#chapter-eight">08. Create Xml Sitemap </a></li>
+                                <li><a href="#chapter-nine">09. Enable Gzip Compression </a></li>
+                                <li><a href="#chapter-ten">10. Enable Microdata </a></li>
                                 <li><a href="#chapter-conclusion"> Conclusion </a></li>
                               </ul>
                             </li>
@@ -132,7 +132,7 @@
                                         <p>Joomla! includes disallow rule for image directory with initial Joomla  installation in auto generated <strong>robots.txt </strong> file.  The robots.txt file contains instruction for search engine not index image folder primarily. The reason behind, Joomla always concern about your privacy first. With initial installation you might have some essential images in image folder. And you want search engine not to index with kick start.</p>
                                          <p>When you are ready to generate a sizable chunk of traffic from images, Just head over to your template <strong>root directory</strong> and remove following instruction from <strong>robots.txt</strong> file</p>
                                        <p></p><pre>Disallow: /images/</pre><p></p>
-                                       <p class="alert alert-info"><strong>Note:</strong> From Joomla 3.3 update, Disallow rule has been withdrawned from <code>/images/</code> folder.</p>
+                                       <p class="alert alert-info"><strong>Note:</strong> From Joomla 3.3 update, Disallow rule has been withdrawn from <code>/images/</code> folder.</p>
                                     </article>
                                  </div>
                              </div>
@@ -172,9 +172,8 @@
                                            <p>Different CMS! handle the issue differently. In Joomla you have redirect www. or non-www. manually via your .htaccess file</p>
 
                                            <p>To redirect from non-www. to www. add the following code to your .htaccess file: </p>
-                                            </p><pre>RewriteEngine On <br>
-                                            RewriteCond %{HTTP_HOST} !^www\. <br>
-                                            RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]</pre> <br> <br>
+                                            </p>
+                                            <pre>RewriteEngine On <br>RewriteCond %{HTTP_HOST} !^www\. <br>RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]</pre> <br> <br>
                                             Alternatively, you can redirect to non-www. by adding this code instead: <br> <br>
                                             <pre>RewriteEngine On<br>
                                             RewriteCond %{HTTP_HOST} www.yourwebsitehere.com<br>
